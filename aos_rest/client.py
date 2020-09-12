@@ -28,6 +28,9 @@ class AbstractClient(ABC):
     """
     Abstract REST client for dumping data from:
 
+    For each endpoint, there is a child class with `get` method, that is
+    updating or passing additional arguments to query.
+    Refer to api documentation for details.
 
     - dump endpoint: https://www.saos.org.pl/api/dump
     returns full documents.
@@ -51,6 +54,20 @@ class AbstractClient(ABC):
 
 class DumpClient(AbstractClient):
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
+        """
+        Default parameters:
+            - pageSize
+            - pageNumber
+            - withGenerated
+
+        Optional parameters:
+            - judgmentStartDate
+            - judgmentEndDate
+            - sinceModificationDate
+
+        Reference:
+            https://www.saos.org.pl/help/index.php/dokumentacja-api/api-pobierania-danych
+        """
         default_params = {
             "pageSize": 20,
             "pageNumber": 0,
@@ -58,9 +75,7 @@ class DumpClient(AbstractClient):
         }
 
         if params is not None:
-            params = default_params.update(params)
-        else:
-            params = default_params
+            default_params.update(params)
 
         return requests.get(Endpoints.DUMP, verify=False, params=params)
 
