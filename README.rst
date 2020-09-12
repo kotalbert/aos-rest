@@ -2,20 +2,6 @@
 aos-rest
 ========
 
-
-.. image:: https://img.shields.io/pypi/v/aos_rest.svg
-        :target: https://pypi.python.org/pypi/aos_rest
-
-.. image:: https://img.shields.io/travis/kotalbert/aos_rest.svg
-        :target: https://travis-ci.com/kotalbert/aos_rest
-
-.. image:: https://readthedocs.org/projects/aos-rest/badge/?version=latest
-        :target: https://aos-rest.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-
-
-
 Client for downloading court judjements from open government api.
 
 
