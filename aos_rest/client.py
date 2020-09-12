@@ -51,15 +51,18 @@ class AbstractClient(ABC):
 
 class DumpClient(AbstractClient):
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
-
         default_params = {
             "pageSize": 20,
             "pageNumber": 0,
             "withGenerated": True
         }
 
+        if params is not None:
+            params = default_params.update(params)
+        else:
+            params = default_params
 
-        return requests.get(Endpoints.DUMP, verify=False, params=default_params)
+        return requests.get(Endpoints.DUMP, verify=False, params=params)
 
 
 class SearchClient(AbstractClient):

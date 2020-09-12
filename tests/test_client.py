@@ -3,8 +3,8 @@
 """Tests for `aos_rest` package."""
 
 import unittest
+
 import urllib3
-from pprint import pprint
 
 from aos_rest.client import DumpClient
 
@@ -19,3 +19,13 @@ class TestClient(unittest.TestCase):
         dc = DumpClient()
         r = dc.get()
         self.assertTrue(r.ok)
+
+    def test_dump_client_additional_params(self):
+        dc = DumpClient()
+        # test overwrite
+        params = {
+            "pageSize": 30
+        }
+        r = dc.get(params)
+        # self.assertGreater(r.content)
+        self.assertEqual(len(r.json()['items']), 30)
