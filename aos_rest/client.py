@@ -8,8 +8,6 @@ from typing import Optional, Any, Dict
 import requests
 from requests import Response
 
-Json = Dict[str, Any]
-
 
 @dataclass()
 class Endpoints:
@@ -42,6 +40,17 @@ class AbstractClient(ABC):
        https://www.saos.org.pl/help/index.php/dokumentacja-api/
     """
 
+    def __init__(self):
+        self._params = {}
+
+    @property
+    def params(self):
+        return self._params
+
+    @params.setter
+    def params(self, params):
+        self._params.update(params)
+
     @abstractmethod
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
         """
@@ -53,6 +62,15 @@ class AbstractClient(ABC):
 
 
 class DumpClient(AbstractClient):
+
+    def __init__(self):
+        super().__init__()
+        self.params = {
+            "pageSize": 20,
+            "pageNumber": 0,
+            "withGenerated": True
+        }
+
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
         """
         Default parameters:
@@ -68,14 +86,9 @@ class DumpClient(AbstractClient):
         Reference:
             https://www.saos.org.pl/help/index.php/dokumentacja-api/api-pobierania-danych
         """
-        default_params = {
-            "pageSize": 20,
-            "pageNumber": 0,
-            "withGenerated": True
-        }
 
         if params is not None:
-            default_params.update(params)
+            self.params = params
 
         return requests.get(Endpoints.DUMP, verify=False, params=params)
 
