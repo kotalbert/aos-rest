@@ -66,7 +66,7 @@ class DumpClient(AbstractClient):
     def __init__(self):
         super().__init__()
         self.params = {
-            "pageSize": 20,
+            "pageSize": 100,
             "pageNumber": 0,
             "withGenerated": True
         }
@@ -87,8 +87,7 @@ class DumpClient(AbstractClient):
             https://www.saos.org.pl/help/index.php/dokumentacja-api/api-pobierania-danych
         """
 
-        if params is not None:
-            self.params = params
+        self.params = params  # update parameters current parameter set
 
         return requests.get(Endpoints.DUMP, verify=False, params=params)
 
@@ -96,7 +95,3 @@ class DumpClient(AbstractClient):
 class SearchClient(AbstractClient):
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
         pass
-
-
-if __name__ == '__main__':
-    print(Endpoints.DUMP)
