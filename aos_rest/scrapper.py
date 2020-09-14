@@ -43,7 +43,7 @@ class PageScrapper(AbstractScrapper):
         while True:
             response = self._scrap_by_page()
             self.current_page_number += 1
-            if response.ok is False:
+            if len(response.json()['items']) == 0:
                 raise StopIteration
             yield response
 

@@ -8,6 +8,8 @@ from typing import Optional, Any, Dict
 import requests
 from requests import Response
 
+AnyDict = Optional[Dict[str, Any]]
+
 
 @dataclass()
 class Endpoints:
@@ -48,8 +50,9 @@ class AbstractClient(ABC):
         return self._params
 
     @params.setter
-    def params(self, params):
-        self._params.update(params)
+    def params(self, params: AnyDict):
+        if params is not None:
+            self._params.update(params)
 
     @abstractmethod
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
@@ -65,8 +68,8 @@ class DumpClient(AbstractClient):
 
     def __init__(self):
         super().__init__()
-        self.params = {
-            "pageSize": 100,
+        self._params = {
+            "pageSize": 20,
             "pageNumber": 0,
             "withGenerated": True
         }
