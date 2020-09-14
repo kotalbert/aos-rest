@@ -1,5 +1,6 @@
 """Class for scrapping the data using clients."""
 from abc import ABC, abstractmethod
+from typing import Generator
 
 import urllib3
 from requests import Response
@@ -39,12 +40,12 @@ class PageScrapper(AbstractScrapper):
     def current_page_number(self, page_number):
         self._current_page_number = page_number
 
-    def get_response_generator(self) -> Response:
+    def get_response_generator(self) -> Generator[Response, None, None]:
         while True:
             response = self._scrap_by_page()
             self.current_page_number += 1
             if len(response.json()['items']) == 0:
-                raise StopIteration
+                break
             yield response
 
     def _scrap_by_page(self) -> Response:

@@ -92,7 +92,7 @@ class DumpClient(AbstractClient):
 
         self.params = params  # update parameters current parameter set
 
-        return requests.get(Endpoints.DUMP, verify=False, params=params)
+        return requests.get(Endpoints.DUMP, verify=False, params=self.params)
 
 
 class SearchClient(AbstractClient):

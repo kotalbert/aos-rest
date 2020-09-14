@@ -18,11 +18,8 @@ class TestPageIdScrapper(unittest.TestCase):
             print(r)
 
     def test_reaching_end_of_data(self):
-        # todo: find why cannot increase page size
-        # todo: make stop iteration when items is empty
         self.dc.params = {"pageSize": 100}
         self.sc.current_page_number = 4083
         generator = self.sc.get_response_generator()
-        for _ in range(20):
-            r = next(generator)
+        for r in generator:
             print(r.content[:250])
