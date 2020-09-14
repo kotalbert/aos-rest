@@ -1,45 +1,39 @@
-#!/usr/bin/env python
-
-"""Tests for `aos_rest` package."""
+"""Tests for `aos_rest.client` module."""
 
 import unittest
 
 import dateutil
-import urllib3
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 
 from aos_rest.client import DumpClient
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
 
 class TestDumpClient(unittest.TestCase):
     """Tests for `aos_rest.client` package."""
 
+    dc = DumpClient()
+
     def test_dump_client_default(self):
         """Check if no error is thrown while getting the default data"""
-        dc = DumpClient()
-        r = dc.get()
+        r = self.dc.get()
         self.assertTrue(r.ok)
 
     def test_dump_client_param_update(self):
-        dc = DumpClient()
         # test overwrite
         params = {
             "pageSize": 30
         }
-        r = dc.get(params)
+        r = self.dc.get(params)
         self.assertEqual(len(r.json()['items']), 30)
 
     def test_dump_client_param_start_date(self):
-        dc = DumpClient()
         judgement_start_date = '2020-09-01'
         params = {
             "judgmentStartDate": judgement_start_date
         }
 
-        r = dc.get(params)
+        r = self.dc.get(params)
         jst = dateutil.parser.parse(judgement_start_date)
         for j in r.json()['items']:
             try:
@@ -49,13 +43,12 @@ class TestDumpClient(unittest.TestCase):
                 pass
 
     def test_dump_client_param_end_date(self):
-        dc = DumpClient()
         judgement_end_date = '2020-09-01'
         params = {
             "judgmentEndDate": judgement_end_date
         }
 
-        r = dc.get(params)
+        r = self.dc.get(params)
         jst = dateutil.parser.parse(judgement_end_date)
         for j in r.json()['items']:
             try:
