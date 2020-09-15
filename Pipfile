@@ -11,6 +11,7 @@ boto3 = "*"
 botocore = "*"
 requests = "*"
 beautifulsoup4 = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.8"
