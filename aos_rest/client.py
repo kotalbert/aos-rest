@@ -65,11 +65,14 @@ class AbstractClient(ABC):
 
 
 class DumpClient(AbstractClient):
+    """
+    Client for dumping data from ASOS API.
+    """
 
     def __init__(self):
         super().__init__()
         self._params = {
-            "pageSize": 20,
+            "pageSize": 100,
             "pageNumber": 0,
             "withGenerated": True
         }
@@ -95,6 +98,37 @@ class DumpClient(AbstractClient):
         return requests.get(Endpoints.DUMP, verify=False, params=self.params)
 
 
-class SearchClient(AbstractClient):
+class CommonCourtsClient(AbstractClient):
+    """
+    Client for fetching data from SAOS common courts services.
+    """
+
+    def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
+        pass
+
+
+class CourtDivisionClient(AbstractClient):
+    """
+    Client for fetching data from SAOS court division services.
+    """
+
+    def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
+        pass
+
+
+class CourtChambersClient(AbstractClient):
+    """
+    Client for fetching data from SAOS court chambers service.
+    """
+
+    def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
+        pass
+
+
+class JudgementFormsClient(AbstractClient):
+    """
+    Client for fetching data from judgement forms SAOS service.
+    """
+
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
         pass
