@@ -6,7 +6,7 @@ import dateutil
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 
-from aos_rest.client import DumpClient
+from aos_rest.client import *
 
 
 class TestDumpClient(unittest.TestCase):
@@ -56,3 +56,11 @@ class TestDumpClient(unittest.TestCase):
                 self.assertLess(relativedelta(judgment_date, jst), 0)
             except KeyError:  # most dates are missing or erroneous
                 pass
+
+
+class CommonCourtClients(unittest.TestCase):
+    cc = CommonCourtsClient()
+
+    def test_get_common_courts(self):
+        r = self.cc.get()
+        self.assertTrue(r.ok)

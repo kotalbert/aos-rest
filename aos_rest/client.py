@@ -15,13 +15,17 @@ AnyDict = Optional[Dict[str, Any]]
 class Endpoints:
     """
     SAOS endpoints
+    https://www.saos.org.pl/help/index.php/dokumentacja-api/api-pobierania-danych
+    https://www.saos.org.pl/help/index.php/dokumentacja-api/api-przeszukiwania-danych
+    https://www.saos.org.pl/help/index.php/dokumentacja-api/api-przegladania-danych
+    https://www.saos.org.pl/help/index.php/dokumentacja-api/dodatkowe-serwisy
     """
     _auth = 'https://www.saos.org.pl'
     DUMP = '%s/api/dump/judgments' % _auth
     SEARCH = '%s/api/search' % _auth
     DETAIL = '%s/api/' % _auth
-    # todo: add additional services endpoints
-    #   https://www.saos.org.pl/help/index.php/dokumentacja-api/dodatkowe-serwisy
+    # additional services endpoints
+    COURTS = '%s/cc/courts/list' % _auth
 
 
 class AbstractClient(ABC):
@@ -104,7 +108,7 @@ class CommonCourtsClient(AbstractClient):
     """
 
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
-        pass
+        return requests.get(Endpoints.COURTS, verify=False)
 
 
 class CourtDivisionClient(AbstractClient):
