@@ -12,6 +12,7 @@ botocore = "*"
 requests = "*"
 beautifulsoup4 = "*"
 mypy = "*"
+boto3-stubs = { extras = ["essential"], version = "*" }
 
 [requires]
 python_version = "3.8"
