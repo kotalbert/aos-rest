@@ -9,7 +9,7 @@ from dateutil.relativedelta import relativedelta
 from aos_rest.client import *
 
 
-class TestDumpClient(unittest.TestCase):
+class DumpClientTestCase(unittest.TestCase):
     """Tests for `aos_rest.client` package."""
 
     dc = DumpClient()
@@ -58,9 +58,17 @@ class TestDumpClient(unittest.TestCase):
                 pass
 
 
-class CommonCourtClients(unittest.TestCase):
-    cc = CommonCourtsClient()
+class CommonCourtsTestCase(unittest.TestCase):
 
     def test_get_common_courts(self):
-        r = self.cc.get()
+        client = CommonCourtsClient()
+        r = client.get()
+        self.assertTrue(r.ok)
+
+
+class CommonCourtsDivisionsTestCase(unittest.TestCase):
+
+    def test_get_court_divisions_list(self):
+        client = CourtDivisionClient()
+        r = client.get_by_id(34)
         self.assertTrue(r.ok)

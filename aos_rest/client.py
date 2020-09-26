@@ -1,6 +1,7 @@
 """
 Client for getting documents from https://www.saos.org.pl
 """
+import logging
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import Optional, Any, Dict
@@ -9,6 +10,8 @@ import requests
 from requests import Response
 
 AnyDict = Optional[Dict[str, Any]]
+
+LOG = logging.getLogger(__name__)
 
 
 @dataclass()
@@ -26,6 +29,8 @@ class Endpoints:
     DETAIL = '%s/api/' % _auth
     # additional services endpoints
     COURTS = '%s/cc/courts/list' % _auth
+    CC_DIVISION = '%s/cc/courts/' % _auth
+    SC_CHAMBERS = '%s/sc/chambers/list' % _auth
 
 
 class AbstractClient(ABC):
@@ -67,6 +72,9 @@ class AbstractClient(ABC):
         """
         pass
 
+    def __repr__(self):
+        return str(self._params)
+
 
 class DumpClient(AbstractClient):
     """
@@ -80,6 +88,7 @@ class DumpClient(AbstractClient):
             "pageNumber": 0,
             "withGenerated": True
         }
+        LOG.info(self.__repr__())
 
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
         """
@@ -114,15 +123,26 @@ class CommonCourtsClient(AbstractClient):
 class CourtDivisionClient(AbstractClient):
     """
     Client for fetching data from SAOS court division services.
+
+    Common courts divisions are fetched as per common court ID.
     """
 
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
-        pass
+        try:
+            court_id = params.get('CC_COURT_ID')
+            url = Endpoints.CC_DIVISION + f'{court_id}/courtDivisions/list'
+            return requests.get(url, verify=False)
+        except KeyError as _:
+            LOG.error('Mandatory parameter CC_COURT_ID not found')
+
+    def get_by_id(self, court_id: int):
+        return self.get({'CC_COURT_ID': court_id})
 
 
 class CourtChambersClient(AbstractClient):
     """
     Client for fetching data from SAOS court chambers service.
+    Common Court Chambers are fetched by court ID.
     """
 
     def get(self, params: Optional[Dict[str, Any]] = None) -> Response:
