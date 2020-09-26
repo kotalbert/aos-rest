@@ -1,0 +1,1872 @@
+[
+  {
+    "id": 34,
+    "name": "S\u0105d Apelacyjny w Bia\u0142ymstoku",
+    "type": "APPEAL"
+  },
+  {
+    "id": 1,
+    "name": "S\u0105d Apelacyjny we Wroc\u0142awiu",
+    "type": "APPEAL"
+  },
+  {
+    "id": 59,
+    "name": "S\u0105d Apelacyjny w Gda\u0144sku",
+    "type": "APPEAL"
+  },
+  {
+    "id": 89,
+    "name": "S\u0105d Apelacyjny w Katowicach",
+    "type": "APPEAL"
+  },
+  {
+    "id": 123,
+    "name": "S\u0105d Apelacyjny w Krakowie",
+    "type": "APPEAL"
+  },
+  {
+    "id": 186,
+    "name": "S\u0105d Apelacyjny w Lublinie",
+    "type": "APPEAL"
+  },
+  {
+    "id": 154,
+    "name": "S\u0105d Apelacyjny w \u0141odzi",
+    "type": "APPEAL"
+  },
+  {
+    "id": 212,
+    "name": "S\u0105d Apelacyjny w Poznaniu",
+    "type": "APPEAL"
+  },
+  {
+    "id": 237,
+    "name": "S\u0105d Apelacyjny w Rzeszowie",
+    "type": "APPEAL"
+  },
+  {
+    "id": 254,
+    "name": "S\u0105d Apelacyjny w Szczecinie",
+    "type": "APPEAL"
+  },
+  {
+    "id": 275,
+    "name": "S\u0105d Apelacyjny w Warszawie",
+    "type": "APPEAL"
+  },
+  {
+    "id": 285,
+    "name": "S\u0105d Okr\u0119gowy Warszawa-Praga w Warszawie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 35,
+    "name": "S\u0105d Okr\u0119gowy w Bia\u0142ymstoku",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 90,
+    "name": "S\u0105d Okr\u0119gowy w Bielsku-Bia\u0142ej",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 60,
+    "name": "S\u0105d Okr\u0119gowy w Bydgoszczy",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 94,
+    "name": "S\u0105d Okr\u0119gowy w Cz\u0119stochowie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 65,
+    "name": "S\u0105d Okr\u0119gowy w Elbl\u0105gu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 85,
+    "name": "S\u0105d Okr\u0119gowy we W\u0142oc\u0142awku",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 26,
+    "name": "S\u0105d Okr\u0119gowy we Wroc\u0142awiu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 70,
+    "name": "S\u0105d Okr\u0119gowy w Gda\u0144sku",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 99,
+    "name": "S\u0105d Okr\u0119gowy w Gliwicach",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 255,
+    "name": "S\u0105d Okr\u0119gowy w Gorzowie Wielkopolskim",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 2,
+    "name": "S\u0105d Okr\u0119gowy w Jeleniej G\u00f3rze",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 155,
+    "name": "S\u0105d Okr\u0119gowy w Kaliszu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 109,
+    "name": "S\u0105d Okr\u0119gowy w Katowicach",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 124,
+    "name": "S\u0105d Okr\u0119gowy w Kielcach",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 213,
+    "name": "S\u0105d Okr\u0119gowy w Koninie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 259,
+    "name": "S\u0105d Okr\u0119gowy w Koszalinie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 133,
+    "name": "S\u0105d Okr\u0119gowy w Krakowie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 238,
+    "name": "S\u0105d Okr\u0119gowy w Kro\u015bnie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 7,
+    "name": "S\u0105d Okr\u0119gowy w Legnicy",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 187,
+    "name": "S\u0105d Okr\u0119gowy w Lublinie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 159,
+    "name": "S\u0105d Okr\u0119gowy w \u0141odzi",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 39,
+    "name": "S\u0105d Okr\u0119gowy w \u0141om\u017cy",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 144,
+    "name": "S\u0105d Okr\u0119gowy w Nowym S\u0105czu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 42,
+    "name": "S\u0105d Okr\u0119gowy w Olsztynie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 12,
+    "name": "S\u0105d Okr\u0119gowy w Opolu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 54,
+    "name": "S\u0105d Okr\u0119gowy w Ostro\u0142\u0119ce",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 167,
+    "name": "S\u0105d Okr\u0119gowy w Piotrkowie Trybunalskim",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 178,
+    "name": "S\u0105d Okr\u0119gowy w P\u0142ocku",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 217,
+    "name": "S\u0105d Okr\u0119gowy w Poznaniu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 251,
+    "name": "S\u0105d Okr\u0119gowy w Przemy\u015blu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 197,
+    "name": "S\u0105d Okr\u0119gowy w Radomiu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 243,
+    "name": "S\u0105d Okr\u0119gowy w Rzeszowie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 202,
+    "name": "S\u0105d Okr\u0119gowy w Siedlcach",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 173,
+    "name": "S\u0105d Okr\u0119gowy w Sieradzu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 75,
+    "name": "S\u0105d Okr\u0119gowy w S\u0142upsku",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 49,
+    "name": "S\u0105d Okr\u0119gowy w Suwa\u0142kach",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 266,
+    "name": "S\u0105d Okr\u0119gowy w Szczecinie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 20,
+    "name": "S\u0105d Okr\u0119gowy w \u015awidnicy",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 247,
+    "name": "S\u0105d Okr\u0119gowy w Tarnobrzegu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 150,
+    "name": "S\u0105d Okr\u0119gowy w Tarnowie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 80,
+    "name": "S\u0105d Okr\u0119gowy w Toruniu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 276,
+    "name": "S\u0105d Okr\u0119gowy w Warszawie",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 207,
+    "name": "S\u0105d Okr\u0119gowy w Zamo\u015bciu",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 230,
+    "name": "S\u0105d Okr\u0119gowy w Zielonej G\u00f3rze",
+    "type": "REGIONAL"
+  },
+  {
+    "id": 135,
+    "name": "S\u0105d Rejonowy dla Krakowa-Krowodrzy w Krakowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 136,
+    "name": "S\u0105d Rejonowy dla Krakowa-Nowej Huty w Krakowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 137,
+    "name": "S\u0105d Rejonowy dla Krakowa-Podg\u00f3rza w Krakowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 138,
+    "name": "S\u0105d Rejonowy dla Krakowa-\u015ar\u00f3dmie\u015bcia w Krakowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 161,
+    "name": "S\u0105d Rejonowy dla \u0141odzi-\u015ar\u00f3dmie\u015bcia w \u0141odzi",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 162,
+    "name": "S\u0105d Rejonowy dla \u0141odzi-Widzewa w \u0141odzi",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 281,
+    "name": "S\u0105d Rejonowy dla m. st. Warszawy w Warszawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 280,
+    "name": "S\u0105d Rejonowy dla Warszawy-Mokotowa w Warszawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 289,
+    "name": "S\u0105d Rejonowy dla Warszawy Pragi-Po\u0142udnie w Warszawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 290,
+    "name": "S\u0105d Rejonowy dla Warszawy Pragi-P\u00f3\u0142noc w Warszawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 282,
+    "name": "S\u0105d Rejonowy dla Warszawy-\u015ar\u00f3dmie\u015bcia w Warszawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 283,
+    "name": "S\u0105d Rejonowy dla Warszawy-Woli w Warszawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 284,
+    "name": "S\u0105d Rejonowy dla Warszawy-\u017boliborza w Warszawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 31,
+    "name": "S\u0105d Rejonowy dla Wroc\u0142awia-Fabrycznej we Wroc\u0142awiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 32,
+    "name": "S\u0105d Rejonowy dla Wroc\u0142awia-Krzyk\u00f3w we Wroc\u0142awiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 33,
+    "name": "S\u0105d Rejonowy dla Wroc\u0142awia-\u015ar\u00f3dmie\u015bcia we Wroc\u0142awiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 302,
+    "name": "S\u0105d Rejonowy Gda\u0144sk-Po\u0142udnie w Gda\u0144sku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 71,
+    "name": "S\u0105d Rejonowy Gda\u0144sk-P\u00f3\u0142noc w Gda\u0144sku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 115,
+    "name": "S\u0105d Rejonowy Katowice-Wsch\u00f3d w Katowicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 116,
+    "name": "S\u0105d Rejonowy Katowice-Zach\u00f3d w Katowicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 192,
+    "name": "S\u0105d Rejonowy Lublin-Wsch\u00f3d w Lublinie z siedzib\u0105 w \u015awidniku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 193,
+    "name": "S\u0105d Rejonowy Lublin-Zach\u00f3d w Lublinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 223,
+    "name": "S\u0105d Rejonowy Pozna\u0144-Grunwald i Je\u017cyce w Poznaniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 224,
+    "name": "S\u0105d Rejonowy Pozna\u0144-Nowe Miasto i Wilda w Poznaniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 225,
+    "name": "S\u0105d Rejonowy Pozna\u0144-Stare Miasto w Poznaniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 272,
+    "name": "S\u0105d Rejonowy Szczecin-Centrum w Szczecinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 273,
+    "name": "S\u0105d Rejonowy Szczecin-Prawobrze\u017ce i Zach\u00f3d w Szczecinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 86,
+    "name": "S\u0105d Rejonowy w Aleksandrowie Kujawskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 50,
+    "name": "S\u0105d Rejonowy w Augustowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 43,
+    "name": "S\u0105d Rejonowy w Bartoszycach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 168,
+    "name": "S\u0105d Rejonowy w Be\u0142chatowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 110,
+    "name": "S\u0105d Rejonowy w B\u0119dzinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 188,
+    "name": "S\u0105d Rejonowy w Bia\u0142ej Podlaskiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 260,
+    "name": "S\u0105d Rejonowy w Bia\u0142ogardzie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 36,
+    "name": "S\u0105d Rejonowy w Bia\u0142ymstoku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 91,
+    "name": "S\u0105d Rejonowy w Bielsku-Bia\u0142ej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 37,
+    "name": "S\u0105d Rejonowy w Bielsku Podlaskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 208,
+    "name": "S\u0105d Rejonowy w Bi\u0142goraju",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 346,
+    "name": "S\u0105d Rejonowy w Biskupcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 151,
+    "name": "S\u0105d Rejonowy w Bochni",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 3,
+    "name": "S\u0105d Rejonowy w Boles\u0142awcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 66,
+    "name": "S\u0105d Rejonowy w Braniewie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 81,
+    "name": "S\u0105d Rejonowy w Brodnicy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 13,
+    "name": "S\u0105d Rejonowy w Brzegu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 152,
+    "name": "S\u0105d Rejonowy w Brzesku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 316,
+    "name": "S\u0105d Rejonowy w Brzezinach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 366,
+    "name": "S\u0105d Rejonowy w Brzozowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 125,
+    "name": "S\u0105d Rejonowy w Busku-Zdroju",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 61,
+    "name": "S\u0105d Rejonowy w Bydgoszczy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 111,
+    "name": "S\u0105d Rejonowy w Bytomiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 352,
+    "name": "S\u0105d Rejonowy w Bytowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 189,
+    "name": "S\u0105d Rejonowy w Che\u0142mie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 82,
+    "name": "S\u0105d Rejonowy w Che\u0142mnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 334,
+    "name": "S\u0105d Rejonowy w Chodzie\u017cy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 76,
+    "name": "S\u0105d Rejonowy w Chojnicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 112,
+    "name": "S\u0105d Rejonowy w Chorzowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 339,
+    "name": "S\u0105d Rejonowy w Choszcznie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 134,
+    "name": "S\u0105d Rejonowy w Chrzanowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 179,
+    "name": "S\u0105d Rejonowy w Ciechanowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 92,
+    "name": "S\u0105d Rejonowy w Cieszynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 95,
+    "name": "S\u0105d Rejonowy w Cz\u0119stochowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 77,
+    "name": "S\u0105d Rejonowy w Cz\u0142uchowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 113,
+    "name": "S\u0105d Rejonowy w D\u0105browie G\u00f3rniczej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 312,
+    "name": "S\u0105d Rejonowy w D\u0105browie Tarnowskiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 244,
+    "name": "S\u0105d Rejonowy w D\u0119bicy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 261,
+    "name": "S\u0105d Rejonowy w Drawsku Pomorskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 301,
+    "name": "S\u0105d Rejonowy w Dzia\u0142dowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 21,
+    "name": "S\u0105d Rejonowy w Dzier\u017coniowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 67,
+    "name": "S\u0105d Rejonowy w Elbl\u0105gu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 51,
+    "name": "S\u0105d Rejonowy w E\u0142ku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 88,
+    "name": "S\u0105d Rejonowy we W\u0142oc\u0142awku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 361,
+    "name": "S\u0105d Rejonowy we W\u0142odawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 358,
+    "name": "S\u0105d Rejonowy we W\u0142oszczowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 333,
+    "name": "S\u0105d Rejonowy we Wrze\u015bni",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 365,
+    "name": "S\u0105d Rejonowy we Wschowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 203,
+    "name": "S\u0105d Rejonowy w Garwolinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 303,
+    "name": "S\u0105d Rejonowy w Gdyni",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 44,
+    "name": "S\u0105d Rejonowy w Gi\u017cycku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 100,
+    "name": "S\u0105d Rejonowy w Gliwicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 8,
+    "name": "S\u0105d Rejonowy w G\u0142ogowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 345,
+    "name": "S\u0105d Rejonowy w G\u0142ubczycach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 218,
+    "name": "S\u0105d Rejonowy w Gnie\u017anie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 267,
+    "name": "S\u0105d Rejonowy w Goleniowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 354,
+    "name": "S\u0105d Rejonowy w Golubiu-Dobrzyniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 145,
+    "name": "S\u0105d Rejonowy w Gorlicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 256,
+    "name": "S\u0105d Rejonowy w Gorzowie Wielkopolskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 180,
+    "name": "S\u0105d Rejonowy w Gostyninie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 329,
+    "name": "S\u0105d Rejonowy w Gostyniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 296,
+    "name": "S\u0105d Rejonowy w Grajewie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 277,
+    "name": "S\u0105d Rejonowy w Grodzisku Mazowieckim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 219,
+    "name": "S\u0105d Rejonowy w Grodzisku Wielkopolskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 198,
+    "name": "S\u0105d Rejonowy w Gr\u00f3jcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 83,
+    "name": "S\u0105d Rejonowy w Grudzi\u0105dzu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 268,
+    "name": "S\u0105d Rejonowy w Gryficach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 269,
+    "name": "S\u0105d Rejonowy w Gryfinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 209,
+    "name": "S\u0105d Rejonowy w Hrubieszowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 68,
+    "name": "S\u0105d Rejonowy w I\u0142awie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 62,
+    "name": "S\u0105d Rejonowy w Inowroc\u0142awiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 364,
+    "name": "S\u0105d Rejonowy w Janowie Lubelskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 156,
+    "name": "S\u0105d Rejonowy w Jarocinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 252,
+    "name": "S\u0105d Rejonowy w Jaros\u0142awiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 101,
+    "name": "S\u0105d Rejonowy w Jastrz\u0119biu-Zdroju",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 239,
+    "name": "S\u0105d Rejonowy w Ja\u015ble",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 344,
+    "name": "S\u0105d Rejonowy w Jaworze",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 114,
+    "name": "S\u0105d Rejonowy w Jaworznie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 4,
+    "name": "S\u0105d Rejonowy w Jeleniej G\u00f3rze",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 126,
+    "name": "S\u0105d Rejonowy w J\u0119drzejowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 313,
+    "name": "S\u0105d Rejonowy w Kaliszu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 372,
+    "name": "S\u0105d Rejonowy w Kamieniu Pomorskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 292,
+    "name": "S\u0105d Rejonowy w Kamiennej G\u00f3rze",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 304,
+    "name": "S\u0105d Rejonowy w Kartuzach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 14,
+    "name": "S\u0105d Rejonowy w K\u0119dzierzynie-Ko\u017alu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 157,
+    "name": "S\u0105d Rejonowy w K\u0119pnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 45,
+    "name": "S\u0105d Rejonowy w K\u0119trzynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 127,
+    "name": "S\u0105d Rejonowy w Kielcach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 15,
+    "name": "S\u0105d Rejonowy w Kluczborku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 22,
+    "name": "S\u0105d Rejonowy w K\u0142odzku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 368,
+    "name": "S\u0105d Rejonowy w Kolbuszowej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 214,
+    "name": "S\u0105d Rejonowy w Kole",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 262,
+    "name": "S\u0105d Rejonowy w Ko\u0142obrzegu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 215,
+    "name": "S\u0105d Rejonowy w Koninie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 128,
+    "name": "S\u0105d Rejonowy w Ko\u0144skich",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 263,
+    "name": "S\u0105d Rejonowy w Koszalinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 220,
+    "name": "S\u0105d Rejonowy w Ko\u015bcianie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 308,
+    "name": "S\u0105d Rejonowy w Ko\u015bcierzynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 199,
+    "name": "S\u0105d Rejonowy w Kozienicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 324,
+    "name": "S\u0105d Rejonowy w Krasnymstawie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 190,
+    "name": "S\u0105d Rejonowy w Kra\u015bniku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 240,
+    "name": "S\u0105d Rejonowy w Kro\u015bnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 231,
+    "name": "S\u0105d Rejonowy w Kro\u015bnie Odrza\u0144skim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 314,
+    "name": "S\u0105d Rejonowy w Krotoszynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 160,
+    "name": "S\u0105d Rejonowy w Kutnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 72,
+    "name": "S\u0105d Rejonowy w Kwidzynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 286,
+    "name": "S\u0105d Rejonowy w Legionowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 9,
+    "name": "S\u0105d Rejonowy w Legnicy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 241,
+    "name": "S\u0105d Rejonowy w Lesku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 221,
+    "name": "S\u0105d Rejonowy w Lesznie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 335,
+    "name": "S\u0105d Rejonowy w Le\u017cajsku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 78,
+    "name": "S\u0105d Rejonowy w L\u0119borku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 347,
+    "name": "S\u0105d Rejonowy w Lidzbarku Warmi\u0144skim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 146,
+    "name": "S\u0105d Rejonowy w Limanowej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 87,
+    "name": "S\u0105d Rejonowy w Lipnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 362,
+    "name": "S\u0105d Rejonowy w Lipsku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 369,
+    "name": "S\u0105d Rejonowy w Lubaczowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 5,
+    "name": "S\u0105d Rejonowy w Lubaniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 191,
+    "name": "S\u0105d Rejonowy w Lubartowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 10,
+    "name": "S\u0105d Rejonowy w Lubinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 96,
+    "name": "S\u0105d Rejonowy w Lubli\u0144cu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 293,
+    "name": "S\u0105d Rejonowy w Lw\u00f3wku \u015al\u0105skim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 245,
+    "name": "S\u0105d Rejonowy w \u0141a\u0144cucie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 174,
+    "name": "S\u0105d Rejonowy w \u0141asku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 317,
+    "name": "S\u0105d Rejonowy w \u0141\u0119czycy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 373,
+    "name": "S\u0105d Rejonowy w \u0141obzie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 40,
+    "name": "S\u0105d Rejonowy w \u0141om\u017cy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 163,
+    "name": "S\u0105d Rejonowy w \u0141owiczu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 194,
+    "name": "S\u0105d Rejonowy w \u0141ukowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 73,
+    "name": "S\u0105d Rejonowy w Malborku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 353,
+    "name": "S\u0105d Rejonowy w Miastku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 359,
+    "name": "S\u0105d Rejonowy w Miechowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 248,
+    "name": "S\u0105d Rejonowy w Mielcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 257,
+    "name": "S\u0105d Rejonowy w Mi\u0119dzyrzeczu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 117,
+    "name": "S\u0105d Rejonowy w Miko\u0142owie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 341,
+    "name": "S\u0105d Rejonowy w Miliczu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 204,
+    "name": "S\u0105d Rejonowy w Mi\u0144sku Mazowieckim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 181,
+    "name": "S\u0105d Rejonowy w M\u0142awie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 349,
+    "name": "S\u0105d Rejonowy w Mogilnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 46,
+    "name": "S\u0105d Rejonowy w Mr\u0105gowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 118,
+    "name": "S\u0105d Rejonowy w Mys\u0142owicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 97,
+    "name": "S\u0105d Rejonowy w Myszkowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 139,
+    "name": "S\u0105d Rejonowy w My\u015blenicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 270,
+    "name": "S\u0105d Rejonowy w My\u015bliborzu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 299,
+    "name": "S\u0105d Rejonowy w Nakle nad Noteci\u0105",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 348,
+    "name": "S\u0105d Rejonowy w Nidzicy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 336,
+    "name": "S\u0105d Rejonowy w Nisku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 232,
+    "name": "S\u0105d Rejonowy w Nowej Soli",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 287,
+    "name": "S\u0105d Rejonowy w Nowym Dworze Mazowieckim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 351,
+    "name": "S\u0105d Rejonowy w Nowym Mie\u015bcie Lubawskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 147,
+    "name": "S\u0105d Rejonowy w Nowym S\u0105czu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 148,
+    "name": "S\u0105d Rejonowy w Nowym Targu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 326,
+    "name": "S\u0105d Rejonowy w Nowym Tomy\u015blu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 16,
+    "name": "S\u0105d Rejonowy w Nysie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 332,
+    "name": "S\u0105d Rejonowy w Obornikach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 52,
+    "name": "S\u0105d Rejonowy w Olecku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 27,
+    "name": "S\u0105d Rejonowy w Ole\u015bnicy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 294,
+    "name": "S\u0105d Rejonowy w Ole\u015bnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 140,
+    "name": "S\u0105d Rejonowy w Olkuszu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 47,
+    "name": "S\u0105d Rejonowy w Olsztynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 28,
+    "name": "S\u0105d Rejonowy w O\u0142awie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 309,
+    "name": "S\u0105d Rejonowy w Opatowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 169,
+    "name": "S\u0105d Rejonowy w Opocznie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 17,
+    "name": "S\u0105d Rejonowy w Opolu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 320,
+    "name": "S\u0105d Rejonowy w Opolu Lubelskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 55,
+    "name": "S\u0105d Rejonowy w Ostro\u0142\u0119ce",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 129,
+    "name": "S\u0105d Rejonowy w Ostrowcu \u015awi\u0119tokrzyskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 158,
+    "name": "S\u0105d Rejonowy w Ostrowie Wielkopolskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 56,
+    "name": "S\u0105d Rejonowy w Ostrowi Mazowieckiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 69,
+    "name": "S\u0105d Rejonowy w Ostr\u00f3dzie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 360,
+    "name": "S\u0105d Rejonowy w Ostrzeszowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 141,
+    "name": "S\u0105d Rejonowy w O\u015bwi\u0119cimiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 288,
+    "name": "S\u0105d Rejonowy w Otwocku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 164,
+    "name": "S\u0105d Rejonowy w Pabianicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 278,
+    "name": "S\u0105d Rejonowy w Piasecznie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 222,
+    "name": "S\u0105d Rejonowy w Pile",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 357,
+    "name": "S\u0105d Rejonowy w Pi\u0144czowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 170,
+    "name": "S\u0105d Rejonowy w Piotrkowie Trybunalskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 297,
+    "name": "S\u0105d Rejonowy w Piszu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 315,
+    "name": "S\u0105d Rejonowy w Pleszewie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 182,
+    "name": "S\u0105d Rejonowy w P\u0142ocku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 183,
+    "name": "S\u0105d Rejonowy w P\u0142o\u0144sku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 18,
+    "name": "S\u0105d Rejonowy w Prudniku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 279,
+    "name": "S\u0105d Rejonowy w Pruszkowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 57,
+    "name": "S\u0105d Rejonowy w Przasnyszu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 253,
+    "name": "S\u0105d Rejonowy w Przemy\u015blu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 337,
+    "name": "S\u0105d Rejonowy w Przeworsku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 200,
+    "name": "S\u0105d Rejonowy w Przysusze",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 119,
+    "name": "S\u0105d Rejonowy w Pszczynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 195,
+    "name": "S\u0105d Rejonowy w Pu\u0142awach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 298,
+    "name": "S\u0105d Rejonowy w Pu\u0142tusku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 102,
+    "name": "S\u0105d Rejonowy w Raciborzu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 201,
+    "name": "S\u0105d Rejonowy w Radomiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 171,
+    "name": "S\u0105d Rejonowy w Radomsku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 343,
+    "name": "S\u0105d Rejonowy w Radziejowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 196,
+    "name": "S\u0105d Rejonowy w Radzyniu Podlaskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 330,
+    "name": "S\u0105d Rejonowy w Rawiczu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 318,
+    "name": "S\u0105d Rejonowy w Rawie Mazowieckiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 367,
+    "name": "S\u0105d Rejonowy w Ropczycach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 103,
+    "name": "S\u0105d Rejonowy w Rudzie \u015al\u0105skiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 104,
+    "name": "S\u0105d Rejonowy w Rybniku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 321,
+    "name": "S\u0105d Rejonowy w Rykach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 356,
+    "name": "S\u0105d Rejonowy w Rypinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 246,
+    "name": "S\u0105d Rejonowy w Rzeszowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 130,
+    "name": "S\u0105d Rejonowy w Sandomierzu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 242,
+    "name": "S\u0105d Rejonowy w Sanoku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 205,
+    "name": "S\u0105d Rejonowy w Siedlcach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 120,
+    "name": "S\u0105d Rejonowy w Siemianowicach \u015al\u0105skich",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 175,
+    "name": "S\u0105d Rejonowy w Sieradzu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 319,
+    "name": "S\u0105d Rejonowy w Sierpcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 131,
+    "name": "S\u0105d Rejonowy w Skar\u017cysku-Kamiennej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 165,
+    "name": "S\u0105d Rejonowy w Skierniewicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 371,
+    "name": "S\u0105d Rejonowy w S\u0142awnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 258,
+    "name": "S\u0105d Rejonowy w S\u0142ubicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 325,
+    "name": "S\u0105d Rejonowy w S\u0142upcy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 79,
+    "name": "S\u0105d Rejonowy w S\u0142upsku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 184,
+    "name": "S\u0105d Rejonowy w Sochaczewie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 323,
+    "name": "S\u0105d Rejonowy w Soko\u0142owie Podlaskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 38,
+    "name": "S\u0105d Rejonowy w Sok\u00f3\u0142ce",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 305,
+    "name": "S\u0105d Rejonowy w Sopocie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 121,
+    "name": "S\u0105d Rejonowy w Sosnowcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 249,
+    "name": "S\u0105d Rejonowy w Stalowej Woli",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 132,
+    "name": "S\u0105d Rejonowy w Starachowicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 271,
+    "name": "S\u0105d Rejonowy w Stargardzie Szczeci\u0144skim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 74,
+    "name": "S\u0105d Rejonowy w Starogardzie Gda\u0144skim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 310,
+    "name": "S\u0105d Rejonowy w Staszowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 338,
+    "name": "S\u0105d Rejonowy w Strzelcach Kraje\u0144skich",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 19,
+    "name": "S\u0105d Rejonowy w Strzelcach Opolskich",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 340,
+    "name": "S\u0105d Rejonowy w Strzelinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 374,
+    "name": "S\u0105d Rejonowy w Strzy\u017cowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 311,
+    "name": "S\u0105d Rejonowy w Suchej Beskidzkiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 370,
+    "name": "S\u0105d Rejonowy w Sul\u0119cinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 53,
+    "name": "S\u0105d Rejonowy w Suwa\u0142kach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 226,
+    "name": "S\u0105d Rejonowy w Szamotu\u0142ach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 264,
+    "name": "S\u0105d Rejonowy w Szczecinku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 48,
+    "name": "S\u0105d Rejonowy w Szczytnie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 63,
+    "name": "S\u0105d Rejonowy w Szubinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 363,
+    "name": "S\u0105d Rejonowy w Szyd\u0142owcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 328,
+    "name": "S\u0105d Rejonowy w \u015aremie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 29,
+    "name": "S\u0105d Rejonowy w \u015arodzie \u015al\u0105skiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 227,
+    "name": "S\u0105d Rejonowy w \u015arodzie Wielkopolskiej",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 23,
+    "name": "S\u0105d Rejonowy w \u015awidnicy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 233,
+    "name": "S\u0105d Rejonowy w \u015awiebodzinie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 64,
+    "name": "S\u0105d Rejonowy w \u015awieciu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 274,
+    "name": "S\u0105d Rejonowy w \u015awinouj\u015bciu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 250,
+    "name": "S\u0105d Rejonowy w Tarnobrzegu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 153,
+    "name": "S\u0105d Rejonowy w Tarnowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 105,
+    "name": "S\u0105d Rejonowy w Tarnowskich G\u00f3rach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 306,
+    "name": "S\u0105d Rejonowy w Tczewie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 210,
+    "name": "S\u0105d Rejonowy w Tomaszowie Lubelskim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 172,
+    "name": "S\u0105d Rejonowy w Tomaszowie Mazowieckim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 84,
+    "name": "S\u0105d Rejonowy w Toruniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 228,
+    "name": "S\u0105d Rejonowy w Trzciance",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 30,
+    "name": "S\u0105d Rejonowy w Trzebnicy",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 300,
+    "name": "S\u0105d Rejonowy w Tucholi",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 216,
+    "name": "S\u0105d Rejonowy w Turku",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 122,
+    "name": "S\u0105d Rejonowy w Tychach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 142,
+    "name": "S\u0105d Rejonowy w Wadowicach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 24,
+    "name": "S\u0105d Rejonowy w Wa\u0142brzychu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 265,
+    "name": "S\u0105d Rejonowy w Wa\u0142czu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 355,
+    "name": "S\u0105d Rejonowy w W\u0105brze\u017anie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 229,
+    "name": "S\u0105d Rejonowy w W\u0105growcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 307,
+    "name": "S\u0105d Rejonowy w Wejherowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 206,
+    "name": "S\u0105d Rejonowy w W\u0119growie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 143,
+    "name": "S\u0105d Rejonowy w Wieliczce",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 176,
+    "name": "S\u0105d Rejonowy w Wieluniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 106,
+    "name": "S\u0105d Rejonowy w Wodzis\u0142awiu \u015al\u0105skim",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 327,
+    "name": "S\u0105d Rejonowy w Wolsztynie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 291,
+    "name": "S\u0105d Rejonowy w Wo\u0142ominie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 342,
+    "name": "S\u0105d Rejonowy w Wo\u0142owie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 295,
+    "name": "S\u0105d Rejonowy w Wysokiem Mazowieckiem",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 58,
+    "name": "S\u0105d Rejonowy w Wyszkowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 107,
+    "name": "S\u0105d Rejonowy w Zabrzu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 149,
+    "name": "S\u0105d Rejonowy w Zakopanem",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 41,
+    "name": "S\u0105d Rejonowy w Zambrowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 211,
+    "name": "S\u0105d Rejonowy w Zamo\u015bciu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 98,
+    "name": "S\u0105d Rejonowy w Zawierciu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 25,
+    "name": "S\u0105d Rejonowy w Z\u0105bkowicach \u015al\u0105skich",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 177,
+    "name": "S\u0105d Rejonowy w Zdu\u0144skiej Woli",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 166,
+    "name": "S\u0105d Rejonowy w Zgierzu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 6,
+    "name": "S\u0105d Rejonowy w Zgorzelcu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 234,
+    "name": "S\u0105d Rejonowy w Zielonej G\u00f3rze",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 11,
+    "name": "S\u0105d Rejonowy w Z\u0142otoryi",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 331,
+    "name": "S\u0105d Rejonowy w Z\u0142otowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 322,
+    "name": "S\u0105d Rejonowy w Zwoleniu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 235,
+    "name": "S\u0105d Rejonowy w \u017baganiu",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 236,
+    "name": "S\u0105d Rejonowy w \u017barach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 350,
+    "name": "S\u0105d Rejonowy w \u017bninie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 108,
+    "name": "S\u0105d Rejonowy w \u017borach",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 185,
+    "name": "S\u0105d Rejonowy w \u017byrardowie",
+    "type": "DISTRICT"
+  },
+  {
+    "id": 93,
+    "name": "S\u0105d Rejonowy w \u017bywcu",
+    "type": "DISTRICT"
+  }
+]
